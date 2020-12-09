@@ -1,0 +1,28 @@
+body {
+    background-color: #191919;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Dosis', 'sans-serif';
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#circle {
+    background: #13C608;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 9px;
+}
+
+#circle__container {
+    display: flex;
+    align-items: center;
+}

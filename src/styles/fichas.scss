@@ -1,0 +1,47 @@
+.main {
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__ficha {
+            margin-right: 20px;
+
+            &__foto {
+                width: 100%;
+
+                &--item {
+                    border-top-left-radius: 8px;
+                    border-top-right-radius: 8px;
+                }
+            }
+
+            &__texto {
+                padding: 20px 22px;
+                background-color: #2F2F2F;
+                margin-bottom: 20px;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                &--title {
+                    font-family: 'Dosis', 'sans-serif';
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    margin-bottom: 8px;
+                    font-weight: 800;
+                }
+
+                &--span {
+                    font-family: 'Dosis', 'sans-serif';
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    font-weight: 600;
+    
+                }
+            }
+        }
+    }
+    
+} 
+
+
+

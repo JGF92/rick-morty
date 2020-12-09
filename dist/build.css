@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header {
+  border-bottom: 1px solid white; }
+  .header__logo {
+    display: block;
+    margin: 0 auto; }
+
+body {
+  background-color: #191919; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+::-webkit-input-placeholder {
+  color: white;
+  font-family: 'Dosis', 'sans-serif';
+  font-size: 18px;
+  font-weight: normal; }
+
+::-moz-placeholder {
+  color: white;
+  font-family: 'Dosis', 'sans-serif';
+  font-size: 18px;
+  font-weight: normal; }
+
+:-ms-input-placeholder {
+  color: white;
+  font-family: 'Dosis', 'sans-serif';
+  font-size: 18px;
+  font-weight: normal; }
+
+::placeholder {
+  color: white;
+  font-family: 'Dosis', 'sans-serif';
+  font-size: 18px;
+  font-weight: normal; }
+
+#circle {
+  background: #13C608;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 9px; }
+
+#circle__container {
+  display: flex;
+  align-items: center; }
+
+.nav__buscador {
+  padding: 61px 0px; }
+  .nav__buscador .prueba {
+    max-width: 600px;
+    width: 100%;
+    background-color: #2f2f2f;
+    padding: 14px 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Dosis', 'sans-serif';
+    font-size: 18px;
+    font-weight: normal; }
+
+.main__container {
+  display: flex;
+  flex-wrap: wrap; }
+  .main__container__ficha {
+    margin-right: 20px; }
+    .main__container__ficha__foto {
+      width: 100%; }
+      .main__container__ficha__foto--item {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px; }
+    .main__container__ficha__texto {
+      padding: 20px 22px;
+      background-color: #2F2F2F;
+      margin-bottom: 20px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px; }
+      .main__container__ficha__texto--title {
+        font-family: 'Dosis', 'sans-serif';
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        font-weight: 800; }
+      .main__container__ficha__texto--span {
+        font-family: 'Dosis', 'sans-serif';
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 600; }
+
+.footer__text {
+  margin: 80px 0px 20px 0px;
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  font-family: 'dosis', 'sans-serif';
+  font-size: 18px;
+  font-weight: 500; }
+
+
+/*# sourceMappingURL=build.css.map*/
